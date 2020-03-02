@@ -55,7 +55,7 @@ removeItem[0].addEventListener("click", function() {
     total.innerText = price[1].innerText;
 
     if (cartItem[0].style.display == "none" && cartItem[1].style.display == "none") {
-        fullCartBox.innerHTML = "<h2 class='cardMsg'>This Cart is Empty !!!</h2>";
+        fullCartBox.innerHTML = "<h2 class='cardMsg'>This Cart is Empty!</h2>";
     }
 });
 
@@ -66,6 +66,6 @@ removeItem[1].addEventListener("click", function() {
     total.innerText = price[0].innerText;
 
     if (cartItem[0].style.display == "none" && cartItem[1].style.display == "none") {
-        fullCartBox.innerHTML = "<h2 class='cardMsg'>This Cart is Empty !!!</h2>";
+        fullCartBox.innerHTML = "<h2 class='cardMsg'>This Cart is Empty!</h2>";
     }
 });
